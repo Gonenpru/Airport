@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Dashboard :: Airport</title>
+<link rel="icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Sales Manager Dashboard Panel" />
+<script type="application/x-javascript">
+	 addEventListener("load", 
+			 			function() { 
+		 					setTimeout(hideURLbar, 0); 
+		 				}, 
+		 				false); 
+	 function hideURLbar(){
+		 window.scrollTo(0,1);
+	 } 
+</script>
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
+<script src="js/Chart.js"></script>
+<link href="css/animate.css" rel="stylesheet" type="text/css"
+	media="all">
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script src="js/jquery-1.10.2.min.js"></script>
+
+</head>
+
+<body class="sticky-header left-side-collapsed">
+	<section>
+		<div class="left-side sticky-left-side">
+			<div class="logo">
+				<h1>
+					<a href="index.jsp">Index</a>
+				</h1>
+			</div>
+			<div class="logo-icon text-center">
+				<a href="index.jsp"><i class="lnr lnr-home"></i> </a>
+			</div>
+			<div class="left-side-inner">
+				<ul class="nav nav-pills nav-stacked custom-nav">
+					<li class="active"><a href=dashboard.jsp><i
+							class="lnr lnr-diamond"></i><span>Dashboard</span></a></li>
+					<li><a href="departures.jsp"><i class="fa fa-plane"
+							aria-hidden="true"></i><span>Departures</span></a></li>
+					<li><a href="arrivals.jsp"><i
+							class="fa fa-plane fa-rotate-90" aria-hidden="true"></i><span>Arrivals</span></a></li>
+					<li><a href="finder.jsp"><i class="lnr lnr-magnifier"></i><span>Finder</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="r3_counter_box">&gt&gtTabla departures&lt&lt</div>
+				</div>
+				<div class="col-md-6">
+					<div class="r3_counter_box">&gt&gtTabla arrivals&lt&lt</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>
+				&copy 2016 Gonenpru Corporation</a>
+			</p>
+		</footer>
+	</section>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
