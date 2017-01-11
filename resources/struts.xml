@@ -12,6 +12,9 @@
 			<result-type name="tiles"
 				class="org.apache.struts2.views.tiles.TilesResult" />
 		</result-types>
+		<action name="index" method="gotoMain" class="controller.NavActions">
+			<result name="true" type="tiles">/tiles.main</result>
+		</action>
 		<action name="main" method="gotoMain" class="controller.NavActions">
 			<result name="true" type="tiles">/tiles.main</result>
 			<result name="false">/utils/error.jsp</result>

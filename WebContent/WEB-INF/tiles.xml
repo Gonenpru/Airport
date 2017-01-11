@@ -14,12 +14,12 @@
 		<put-attribute name="body" value="/main.jsp" />
 	</definition>
 	<definition name="/tiles.arrive" extends="baseLayout">
-		<put-attribute name="body" value="/index.jsp" />
+		<put-attribute name="body" value="/arrive.jsp" />
 	</definition>
 	<definition name="/tiles.depart" extends="baseLayout">
-		<put-attribute name="body" value="/index.jsp" />
+		<put-attribute name="body" value="/depart.jsp" />
 	</definition>
 	<definition name="/tiles.find" extends="baseLayout">
-		<put-attribute name="body" value="/index.jsp" />
+		<put-attribute name="body" value="/find.jsp" />
 	</definition>
 </tiles-definitions>
