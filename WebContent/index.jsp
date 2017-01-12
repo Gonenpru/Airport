@@ -6,10 +6,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Loading...</title>
+<script type="text/javascript">
+	window.location.href = "/Airport/index.action"
+</script>
 </head>
 <body>
-	<s:form action="index" method="POST">
-		<s:submit class="input-style" name="presto" value="gou" />
-	</s:form>
+	<p>Wait while you are being redirected.</p>
+	<p>If you are not redirected, press <a href="/Airport/index.action">here</a></p>
 </body>
 </html>

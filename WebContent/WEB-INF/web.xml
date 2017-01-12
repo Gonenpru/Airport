@@ -26,10 +26,10 @@
 		<param-name>tilesDefinitions</param-name>
 		<param-value>/WEB-INF/tiles.xml</param-value>
 	</context-param>
-	<error-page>
-		<error-code>404</error-code>
-		<location>/utils/error.jsp</location>
-	</error-page>
+<!-- 	<error-page> -->
+<!-- 		<error-code>404</error-code> -->
+<!-- 		<location>/utils/error.jsp</location> -->
+<!-- 	</error-page> -->
 	<error-page>
 		<error-code>500</error-code>
 		<location>/utils/error.jsp</location>

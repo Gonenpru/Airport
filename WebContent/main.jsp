@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <div class="main-content" id="container">
-	<div class="row">
-		<div class="col-md-6">
+	<div class="col-md-6">
+		<div class="table-responsive">
+		<h3>Departures</h3>
 			<table class="table table-hover">
 				<thead>
 					<tr>
@@ -34,7 +35,10 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="col-md-6">
+	</div>
+	<div class="col-md-6">
+		<div class="table-responsive">
+		<h3>Arrivals</h3>
 			<table class="table table-hover">
 				<thead>
 					<tr>

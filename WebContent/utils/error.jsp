@@ -6,11 +6,34 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>There was a problem</title>
+<style type="text/css">
+body {
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+h1 {
+	margin-top: 30px;
+	font-family: verdana;
+	font-weight: bold;
+	color : #ffffff;
+	text-align: center;
+	font-size: 50px;
+}
+
+p {
+	margin-top: 10px;
+	font-family: verdana;
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+}
+</style>
 </head>
-<body>
-	<img alt="Error image"
-		src="http://files.gamebanana.com/img/ss/sprays/4feddfb9a027d.jpg">
-	<h1>A dónde fuiste, wey!</h1>
-	<p>Error: <s:property value="%{exception.message}"/></p>
+<body
+	background="http://vps355278.ovh.net/images/dance.gif">
+	<h1>There was an error (<s:property value="error.type" />)</h1>
+	<p>You better go back and run</p>
+	<p><s:property value="error.message" /></p>
 </body>
 </html>

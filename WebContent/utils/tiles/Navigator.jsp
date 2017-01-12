@@ -13,7 +13,7 @@
 	<div class="left-side-inner">
 		<ul class="nav nav-pills nav-stacked custom-nav">
 			<li class="active"><s:a name="action" value="main">
-					<i class="lnr lnr-diamond"></i>
+					<i class="fa fa-play"></i>
 					<span>Dashboard</span>
 				</s:a></li>
 			<li><s:a name="action" value="depart">
