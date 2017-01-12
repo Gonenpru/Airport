@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -22,6 +23,7 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css"
 	media="all">
 <script src="js/wow.min.js"></script>
+<script type="text/javascript" src="/Airport/js/navClick.js"></script>
 <script>
 	new WOW().init();
 </script>
@@ -29,11 +31,14 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
-<body class="sticky-header left-side-collapsed">
-	<tiles:insertAttribute name="header" />
+<body class="sticky-header left-side-collapsed" onload="navClicked()">
+	<p id="selected" class="hidden"><s:property value="nav"/></p>
 	<tiles:insertAttribute name="menu" />
+	<div class="main-content" id="container">
+	<tiles:insertAttribute name="header" />
 	<br>
 	<tiles:insertAttribute name="body" />
+	</div>
 	<tiles:insertAttribute name="footer" />
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/scripts.js"></script>

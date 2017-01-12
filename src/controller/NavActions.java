@@ -2,22 +2,33 @@ package controller;
 
 public class NavActions {
 	
-	String presto;
+	String nav;
 	
 	public String gotoMain() {
-		System.out.println(presto);
-		return "true";
+		nav = "main";
+		System.out.println(nav);
+		return nav;
 	}
 	public String gotoArrive() {
-		System.out.println(presto);
-		return "false";
+		nav = "arrive";
+		System.out.println(nav);
+		return nav;
 	}
 	public String gotoDepart() {
-		System.out.println(presto);
-		return "false";
+		nav = "depart";
+		System.out.println(nav);
+		return nav;
 	}
 	public String gotoFinder() {
-		System.out.println(presto);
-		return "false";
+		nav = "find";
+		System.out.println(nav);
+		return nav;
+	}
+	
+	public String getNav() {
+		return nav;
+	}
+	public void setNav(String nav) {
+		this.nav = nav;
 	}
 }

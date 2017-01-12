@@ -22,14 +22,17 @@
 	<listener>
 		<listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
 	</listener>
+	<listener>
+		<listener-class>initialization.InitHibernate</listener-class>
+	</listener>
 	<context-param>
 		<param-name>tilesDefinitions</param-name>
 		<param-value>/WEB-INF/tiles.xml</param-value>
 	</context-param>
-<!-- 	<error-page> -->
-<!-- 		<error-code>404</error-code> -->
-<!-- 		<location>/utils/error.jsp</location> -->
-<!-- 	</error-page> -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/utils/error.jsp</location>
+	</error-page>
 	<error-page>
 		<error-code>500</error-code>
 		<location>/utils/error.jsp</location>

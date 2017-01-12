@@ -11,15 +11,15 @@
 		<put-attribute name="footer" value="/utils/tiles/Footer.jsp" />
 	</definition>
 	<definition name="/tiles.main" extends="baseLayout">
-		<put-attribute name="body" value="/main.jsp" />
+		<put-attribute name="body" value="/pages/main.jsp" />
 	</definition>
 	<definition name="/tiles.arrive" extends="baseLayout">
-		<put-attribute name="body" value="/arrive.jsp" />
+		<put-attribute name="body" value="/pages/arrive.jsp" />
 	</definition>
 	<definition name="/tiles.depart" extends="baseLayout">
-		<put-attribute name="body" value="/depart.jsp" />
+		<put-attribute name="body" value="/pages/depart.jsp" />
 	</definition>
 	<definition name="/tiles.find" extends="baseLayout">
-		<put-attribute name="body" value="/find.jsp" />
+		<put-attribute name="body" value="/pages/find.jsp" />
 	</definition>
 </tiles-definitions>

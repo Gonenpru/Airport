@@ -12,19 +12,19 @@
 	</div>
 	<div class="left-side-inner">
 		<ul class="nav nav-pills nav-stacked custom-nav">
-			<li class="active"><s:a name="action" value="main">
+			<li id="main" class="nav-item"><s:a action="main">
 					<i class="fa fa-play"></i>
 					<span>Dashboard</span>
 				</s:a></li>
-			<li><s:a name="action" value="depart">
+			<li id="depart" class="nav-item"><s:a action="depart">
 					<i class="fa fa-plane" aria-hidden="true"></i>
 					<span>Departures</span>
 				</s:a></li>
-			<li><s:a name="action" value="arrive">
+			<li id="arrive" class="nav-item"><s:a action="arrive">
 					<i class="fa fa-plane fa-rotate-90" aria-hidden="true"></i>
 					<span>Arrivals</span>
 				</s:a></li>
-			<li><s:a name="action" value="find">
+			<li id="find" class="nav-item"><s:a action="find">
 					<i class="lnr lnr-magnifier"></i>
 					<span>Finder</span>
 				</s:a></li>
