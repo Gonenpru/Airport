@@ -19,7 +19,10 @@
 	<definition name="/tiles.depart" extends="baseLayout">
 		<put-attribute name="body" value="/pages/depart.jsp" />
 	</definition>
-	<definition name="/tiles.find" extends="baseLayout">
-		<put-attribute name="body" value="/pages/find.jsp" />
+	<definition name="/tiles.finder" extends="baseLayout">
+		<put-attribute name="body" value="/pages/finder.jsp" />
+	</definition>
+	<definition name="/tiles.find.flight" extends="baseLayout">
+		<put-attribute name="body" value="/pages/find_result.jsp" />
 	</definition>
 </tiles-definitions>

@@ -32,8 +32,8 @@ p {
 </head>
 <body
 	background="http://vps355278.ovh.net/images/dance.gif">
-	<h1>There was an error (<s:property value="error.type" />)</h1>
+	<h1>There was an error (<s:property value="errorCode" />)</h1>
 	<p>You better go back and run</p>
-	<p><s:property value="error.message" /></p>
+	<p><s:property value="errorMessage" /></p>
 </body>
 </html>

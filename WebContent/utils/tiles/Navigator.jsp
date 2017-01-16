@@ -24,7 +24,7 @@
 					<i class="fa fa-plane fa-rotate-90" aria-hidden="true"></i>
 					<span>Arrivals</span>
 				</s:a></li>
-			<li id="find" class="nav-item"><s:a action="find">
+			<li id="finder" class="nav-item"><s:a action="finder">
 					<i class="lnr lnr-magnifier"></i>
 					<span>Finder</span>
 				</s:a></li>

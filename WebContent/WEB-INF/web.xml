@@ -22,9 +22,6 @@
 	<listener>
 		<listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
 	</listener>
-	<listener>
-		<listener-class>initialization.InitHibernate</listener-class>
-	</listener>
 	<context-param>
 		<param-name>tilesDefinitions</param-name>
 		<param-value>/WEB-INF/tiles.xml</param-value>

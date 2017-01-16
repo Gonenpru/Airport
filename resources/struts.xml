@@ -14,19 +14,16 @@
 		</result-types>
 		<action name="main" method="gotoMain" class="controller.NavActions">
 			<result name="main" type="tiles">/tiles.main</result>
-			<result name="false">/utils/error.jsp</result>
+			<result name="error">/utils/error.jsp</result>
 		</action>
 		<action name="arrive" method="gotoArrive" class="controller.NavActions">
 			<result name="arrive" type="tiles">/tiles.arrive</result>
-			<result name="false">/utils/error.jsp</result>
+			<result name="error">/utils/error.jsp</result>
 		</action>
 		<action name="depart" method="gotoDepart" class="controller.NavActions">
 			<result name="depart" type="tiles">/tiles.depart</result>
-			<result name="false">/utils/error.jsp</result>
-		</action>
-		<action name="find" method="gotoFind" class="controller.NavActions">
-			<result name="find" type="tiles">/tiles.find</result>
-			<result name="false">/utils/error.jsp</result>
+			<result name="error">/utils/error.jsp</result>
 		</action>
 	</package>
+	<include file="find.xml" />
 </struts>
