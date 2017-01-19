@@ -26,7 +26,7 @@
 				</s:a></li>
 			<li id="map" class="nav-item"><s:a action="map">
 					<i class="fa fa-map-o" aria-hidden="true"></i>
-					<span>Finder</span>
+					<span>Map</span>
 				</s:a></li>
 		</ul>
 	</div>
