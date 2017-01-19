@@ -41,11 +41,11 @@
 						class="dropdown-toggle" data-toggle="dropdown"
 						aria-expanded="false">
 							<div class="profile_img">
-								<span style="background: url(images/1.jpg) no-repeat center">
+								<span style="background: url(images/2.jpg) no-repeat center">
 								</span>
 								<div class="user-name">
 									<p>
-										J. Powell<span>Sales Manager</span>
+										N. Mandela
 									</p>
 								</div>
 								<i class="lnr lnr-chevron-down"></i> <i

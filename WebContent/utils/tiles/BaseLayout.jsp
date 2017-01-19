@@ -13,11 +13,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Sales Manager Dashboard Panel" />
 <script type="application/x-javascript">
+	
+	
+	
+	
+	
 	addEventListener("load",function(){setTimeout(hideURLbar, 0);},false);function hideURLbar(){window.scrollTo(0,1);}
+
+
+
+
+
 </script>
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href="css/font-awesome.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/36a53496c3.js"></script>
 <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
 <script src="js/Chart.js"></script>
 <link href="css/animate.css" rel="stylesheet" type="text/css"
@@ -30,14 +40,34 @@
 <script src="js/jquery-1.10.2.min.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<style type="text/css">
+#map-heatrhow {
+	height: 450px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	667px) {
+	#map-heatrhow {
+		height: 150px
+	}
+}
+
+@media ( min-device-width : 800px) and (max-device-width: 1280px) {
+	#map-heatrhow {
+		height: 300px
+	}
+}
+</style>
 </head>
 <body class="sticky-header left-side-collapsed" onload="navClicked()">
-	<p id="selected" class="hidden"><s:property value="nav"/></p>
+	<p id="selected" class="hidden">
+		<s:property value="nav" />
+	</p>
 	<tiles:insertAttribute name="menu" />
 	<div class="main-content" id="container">
-	<tiles:insertAttribute name="header" />
-	<br>
-	<tiles:insertAttribute name="body" />
+		<tiles:insertAttribute name="header" />
+		<br>
+		<tiles:insertAttribute name="body" />
 	</div>
 	<tiles:insertAttribute name="footer" />
 	<script src="js/jquery.nicescroll.js"></script>

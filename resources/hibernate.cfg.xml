@@ -3,28 +3,15 @@
 		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-    <session-factory>
-        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.password"></property>
-        <property name="hibernate.connection.url">jdbc:postgresql://51.254.216.116:5432/gonenpru</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-        <property name="hibernate.show_sql">true</property>
-        
-        <mapping class="Airlines" package="db_items" resource="/Airlines.hbm.xml"/>
-        <mapping class="Baggages" package="db_items" resource="/Baggages.hbm.xml"/>
-        <mapping class="Controllers" package="db_items" resource="/Controllers.hbm.xml"/>
-        <mapping class="Employees" package="db_items" resource="/Employees.hbm.xml"/>
-        <mapping class="Flights" package="db_items" resource="/Flights.hbm.xml"/>
-        <mapping class="Gates" package="db_items" resource="/Gates.hbm.xml"/>
-        <mapping class="Manufacturers" package="db_items" resource="/Manufacturers.hbm.xml"/>
-        <mapping class="Passengers" package="db_items" resource="/Passengers.hbm.xml"/>
-        <mapping class="PlaneModels" package="db_items" resource="/PlaneModels.hbm.xml"/>
-        <mapping class="PlaneMovements" package="db_items" resource="/PlaneMovements.hbm.xml"/>
-        <mapping class="Planes" package="db_items" resource="/Planes.hbm.xml"/>
-        <mapping class="PlaneStatus" package="db_items" resource="/PlaneStatus.hbm.xml"/>
-        <mapping class="Routes" package="db_items" resource="/Routes.hbm.xml"/>
-        <mapping class="Terminals" package="db_items" resource="/Terminals.hbm.xml"/>
-        <mapping class="Tickets" package="db_items" resource="/Tickets.hbm.xml"/>
-    </session-factory>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.password"></property>
+		<property name="hibernate.connection.url">jdbc:postgresql://51.254.216.116:5432/gonenpru</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="db_items.Flights" package="db_items"
+			resource="/db_items.Flights.hbm.xml" />
+	</session-factory>
 </hibernate-configuration>

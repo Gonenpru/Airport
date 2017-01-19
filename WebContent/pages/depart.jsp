@@ -1,8 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
+<!-- DATATABLES  -->
+<script	src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<link
+	href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"
+	rel="stylesheet">
+
+<script>
+	$(document).ready(function() {
+
+		$('#myTable').DataTable();
+
+	});
+</script>
 <div class="contentform col-md-12">
-	<table id="myTable" class="display" cellspacing="0" width="100%">
+	<table id="myTable" class="display" style="margin: 10px;"
+		cellspacing="0" width="100%">
 		<thead>
 			<tr>
 				<th>Flight</th>
@@ -13,7 +27,6 @@
 				<th>Duration</th>
 				<th>Delay</th>
 				<th>Departure</th>
-				<th>Delete</th>
 			</tr>
 		</thead>
 		<tbody>

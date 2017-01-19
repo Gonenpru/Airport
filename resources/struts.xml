@@ -16,14 +16,17 @@
 			<result name="main" type="tiles">/tiles.main</result>
 			<result name="error">/utils/error.jsp</result>
 		</action>
-		<action name="arrive" method="gotoArrive" class="controller.NavActions">
+		<action name="arrive" method="gotoArrive" class="controller.TableActions">
 			<result name="arrive" type="tiles">/tiles.arrive</result>
 			<result name="error">/utils/error.jsp</result>
 		</action>
-		<action name="depart" method="gotoDepart" class="controller.NavActions">
+		<action name="depart" method="gotoDepart" class="controller.TableActions">
 			<result name="depart" type="tiles">/tiles.depart</result>
 			<result name="error">/utils/error.jsp</result>
 		</action>
+		<action name="map" method="gotoMap" class="controller.NavActions">
+			<result name="map" type="tiles">/tiles.map</result>
+			<result name="error">/utils/error.jsp</result>
+		</action>
 	</package>
-	<include file="find.xml" />
 </struts>
