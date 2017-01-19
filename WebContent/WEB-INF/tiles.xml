@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="baseLayout" template="/utils/tiles/BaseLayout.jsp">
+		<put-attribute name="title" value="Airport :: Gonenpru" />
+		<put-attribute name="header" value="/utils/tiles/Header.jsp" />
+		<put-attribute name="menu" value="/utils/tiles/Navigator.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/utils/tiles/Footer.jsp" />
+	</definition>
+	<definition name="/tiles.main" extends="baseLayout">
+		<put-attribute name="body" value="/pages/main.jsp" />
+	</definition>
+	<definition name="/tiles.arrive" extends="baseLayout">
+		<put-attribute name="body" value="/pages/arrive.jsp" />
+	</definition>
+	<definition name="/tiles.depart" extends="baseLayout">
+		<put-attribute name="body" value="/pages/depart.jsp" />
+	</definition>
+	<definition name="/tiles.map" extends="baseLayout">
+		<put-attribute name="body" value="/pages/map.jsp" />
+	</definition>
+</tiles-definitions>
