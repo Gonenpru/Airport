@@ -3,9 +3,6 @@
  */
 package controller;
 
-import utils.HibernateUtils;
-
-// TODO: Auto-generated Javadoc
 /**
  * The Class NavActions.
  */
