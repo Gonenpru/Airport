@@ -12,6 +12,6 @@
 </head>
 <body>
 	<p>Wait while you are being redirected.</p>
-	<p>If you are not redirected, press <a href="/Airport/main.action">here</a></p>
+	<p>If you are not redirected, press <a href="/Airline/main.action">here</a></p>
 </body>
 </html>
