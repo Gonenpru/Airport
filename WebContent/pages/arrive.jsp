@@ -25,7 +25,7 @@
 				<th>Route</th>
 				<th>Duration</th>
 				<th>Delay</th>
-				<th>Departure</th>
+				<th>Arrival</th>
 			</tr>
 		</thead>
 		<tbody>
