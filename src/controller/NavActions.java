@@ -1,7 +1,5 @@
 package controller;
 
-import utils.HibernateUtils;
-
 public class NavActions {
 
 	String nav;
